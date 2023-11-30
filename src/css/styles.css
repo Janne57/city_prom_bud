@@ -4,12 +4,15 @@
   | default @import url()
   |============================
 */
+@import url('./base.css');
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./aboutus.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: 'DM Sans', sans-serif; */
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -22,4 +25,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  
+    /* Primary and title color text */
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --link-text-cont: #434455;
+    --body-bcg-color: #ffffff;
+    --logo-text-color: #4D5AE5;
+    --site-nav-link: #404BBF;
+    --text-white-color: #ffffff;
 }
