@@ -1,38 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/city_prom_bud/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    
-    <script type="module" crossorigin src="/city_prom_bud/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/city_prom_bud/assets/index-10c40100.css">
-  </head>
-  <body>
-    <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/city_prom_bud/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CityPromBud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    integrity="sha512-1bhKtVC+Rwemskiy3JPDT3u1PjW8B8oH7aFL+fS9Ju0DR/oAp3ttKPIlVWRMdEuhwZ6Lz3ds48hAwz7unUQXdA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <script type="module" crossorigin src="/city_prom_bud/commonHelpers3.js"></script>
+  <link rel="stylesheet" href="/city_prom_bud/assets/styles-e99fec99.css">
+</head>
+
+<body>
+  <header class="header container">
   <nav class="nav">
+
+    <div class="header-logo-container">
+      <a href="index.html" class="header-logo logo"><img src="../img/logo city 4.png" width="90" height="60" ></a>
+    </div>
+
     <ul class="nav-list">
       <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
+        <a href="./services.html" class="nav-link current">Послуги</a>
       </li>
-
       <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
+        <a href="./connection.html" class="nav-link current">Зв'язатися з нами</a>
+      </li>
+      <li class="nav-item">
+        <a href="./aboutus.html" class="nav-link current">Про нас</a>
       </li>
     </ul>
+
+    <ul class="header-cont">
+      <li><a href="mailto:info@cityprombud.com" class="link-contacts">info@cityprombud.com</a></li>
+      <li><a href="tel:+110001111111" class="link-contacts">+11 (000) 111-11-11</a></li>
+  </ul>
+
   </nav>
+
+
+  <!-- <nav class="header-nav">
+    <ul class="header-list">
+      <li class="list">
+        <a class="nav-item link" href="index.html">home</a>
+      </li>
+      <li class="list">
+        <a class="nav-item link current" href="hotel.html">hotel</a>
+      </li>
+      <li class="list">
+        <a class="nav-item link" href="restaurant.html">restaurant</a>
+      </li>
+    </ul> -->
+</nav>
 </header>
 
 
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/city_prom_bud/assets/javascript-8dac5379.svg" alt="" />
-    </section>
+  <section>
+    <!-- <h1>Hello</h1> -->
+    <!-- Path to images as from index.html file -->
+    <!-- <img src="./img/javascript.svg" alt="" /> -->
+  </section>
 
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
+  <!-- Loads the specified .html file -->
+  <section class="vite-promo">
   <div class="container">
     <div class="wrapper">
       <h2 class="title">
@@ -80,6 +115,7 @@
 </section>
 
 
-    
-  </body>
+  
+</body>
+
 </html>
