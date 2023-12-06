@@ -8,6 +8,7 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./footer.css');
 @import url('./aboutus.css');
 
 :root {
@@ -28,11 +29,18 @@
 
   
     /* Primary and title color text */
-    --primary-text-color: #434455;
-    --title-text-color: #2E2F42;
-    --link-text-cont: #434455;
     --body-bcg-color: #ffffff;
+    --title-text-color: #2E2F42;
+    
+
+    --primary-text-color: #434455;
+    
+    --link-text-cont: #434455;
+    
     --logo-text-color: #4D5AE5;
     --site-nav-link: #404BBF;
     --text-white-color: #ffffff;
+
+    --footer-bg-color: #f1f1f1;
+    --footer-text-color: #898984;
 }

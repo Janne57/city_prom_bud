@@ -12,30 +12,34 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     /* width: 86vw; */
-    /* outline: 2px solid red; */
+    outline: 5px solid rgb(24, 22, 22);
   }
  
   @media screen and (max-width: 374.98px) {
     .container {
       max-width: 335px;
+      outline: 5px solid rgb(24, 22, 22);
     }
   }
  
   @media screen and (min-width: 375px) {
     .container {
       width: 335px;
+      outline: 5px solid rgb(24, 22, 22);
     }
   }
  
   @media screen and (min-width: 768px) {
     .container {
       width: 704px;
+      outline: 5px solid rgb(24, 22, 22);
     }
   }
  
   @media screen and (min-width: 1440px) {
     .container {
       width: 1376px;
+      outline: 5px solid rgb(24, 22, 22);
     }
   }
  
