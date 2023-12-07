@@ -180,6 +180,19 @@ outline: 3px solid red;
 .different-us-title {
     /* position: absolute;
     top: 20px; */
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    outline: 3px solid rgb(243, 208, 11);
+}
+
+@media screen and (min-width: 768px) {
+.different-us-title {
+    /* position: absolute;
+    top: 20px; */
     font-weight: 600;
     font-size: 28px;
     margin-bottom: 20px;
@@ -187,6 +200,7 @@ outline: 3px solid red;
     margin-right: auto;
     padding: 20px;
     outline: 3px solid rgb(243, 208, 11);
+}
 }
 
 
@@ -196,7 +210,7 @@ outline: 3px solid red;
     top: 70px; 
  
     left: 115px; */
-    width: 600px;
+    /* width: 600px; */
     /* display: flex; */
     align-items: stretch;
     z-index: 2;
@@ -205,15 +219,16 @@ outline: 3px solid red;
     background: #fff;
     box-shadow: 0 15px 30px 5px rgba(0,0,0,.1);
     flex: 0 1 auto;
-    margin-left: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     /* max-width: 580px; */
     /* min-height: 315px; */
-    padding: 40px 50px;
+    /* padding: 40px 50px; */
     /* width: 91.5237278445%; */
 
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.30;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.22;
     text-align: justify;
     outline: 3px solid rgb(67, 184, 219);
 }
@@ -240,7 +255,7 @@ outline: 3px solid red;
         padding: 20px 25px;
         /* width: 91.5237278445%; */
     
-        font-weight: 400;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.30;
         text-align: justify;
@@ -355,10 +370,24 @@ outline: 5px solid red;
 .info-text {
     /* display: flex; */
     
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.30;
     text-align: justify;
     margin-bottom: 15px;
     outline: 3px solid rgb(67, 184, 219);
+}
+
+
+@media screen and (min-width: 768px) {
+    .info-text {
+        /* display: flex; */
+        
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.30;
+        text-align: justify;
+        margin-bottom: 15px;
+        outline: 3px solid rgb(67, 184, 219);
+    }
 }
