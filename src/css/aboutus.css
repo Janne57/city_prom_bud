@@ -4,7 +4,7 @@
     /* width: 428px; */
     /* min-height: 530px; */
     width: 100%;
-    outline: 5px solid green;
+    /* outline: 5px solid green; */
     background-color: var(--hero-title-bcg);
     text-align: center;
     padding: 112px 54px;
@@ -149,7 +149,7 @@ screen and (min-resolution: 2dppx) {
     /* position: relative; */
     /* margin-bottom: 100px; */
     /* max-width: 1480px; */
-outline: 6px solid rgb(248, 11, 189);
+/* outline: 6px solid rgb(248, 11, 189); */
 }
 .reverse {
     flex-direction: column-reverse;
@@ -163,7 +163,7 @@ outline: 6px solid rgb(248, 11, 189);
         /* position: relative; */
         margin-bottom: 100px;
         /* max-width: 1480px; */
-    outline: 6px solid rgb(248, 11, 189);
+    /* outline: 6px solid rgb(248, 11, 189); */
     }
 }v
 
@@ -174,7 +174,7 @@ outline: 6px solid rgb(248, 11, 189);
     position: relative;
     /* min-width: 1350px; */
     /* margin-bottom: 100px; */
-outline: 3px solid red;
+/* outline: 3px solid red; */
 }
 
 .different-us-title {
@@ -186,7 +186,7 @@ outline: 3px solid red;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    outline: 3px solid rgb(243, 208, 11);
+    /* outline: 3px solid rgb(243, 208, 11); */
 }
 
 @media screen and (min-width: 768px) {
@@ -199,7 +199,7 @@ outline: 3px solid red;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    outline: 3px solid rgb(243, 208, 11);
+    /* outline: 3px solid rgb(243, 208, 11); */
 }
 }
 
@@ -230,7 +230,7 @@ outline: 3px solid red;
     font-size: 16px;
     line-height: 1.22;
     text-align: justify;
-    outline: 3px solid rgb(67, 184, 219);
+    /* outline: 3px solid rgb(67, 184, 219); */
 }
 
 
@@ -259,7 +259,7 @@ outline: 3px solid red;
         font-size: 20px;
         line-height: 1.30;
         text-align: justify;
-        outline: 3px solid rgb(67, 184, 219);
+        /* outline: 3px solid rgb(67, 184, 219); */
     }
 }
 
@@ -270,7 +270,7 @@ outline: 3px solid red;
     right: 0px;  */
 /* margin-top: 50px;
 margin-left: 50px; */
-    outline: 3px solid rgb(23, 224, 16);
+    /* outline: 3px solid rgb(23, 224, 16); */
 }
 
 @media screen and (min-width: 1440px) {
@@ -286,7 +286,7 @@ margin-left: 50px; */
     /* position: relative; */
     /* min-width: 1350px; */
     /* margin-bottom: 100px; */
-outline: 5px solid red;
+/* outline: 5px solid red; */
 }
 
 .select-us-text {
@@ -314,7 +314,7 @@ outline: 5px solid red;
    font-size: 20px;
    line-height: 1.30;
    text-align: justify;
-   outline: 3px solid rgb(67, 184, 219);
+   /* outline: 3px solid rgb(67, 184, 219); */
 }
 
 @media screen and (min-width: 768px) {
@@ -343,7 +343,7 @@ outline: 5px solid red;
        font-size: 20px;
        line-height: 1.30;
        text-align: justify;
-       outline: 3px solid rgb(67, 184, 219);
+       /* outline: 3px solid rgb(67, 184, 219); */
     }
 }
 
@@ -375,7 +375,7 @@ outline: 5px solid red;
     line-height: 1.30;
     text-align: justify;
     margin-bottom: 15px;
-    outline: 3px solid rgb(67, 184, 219);
+    /* outline: 3px solid rgb(67, 184, 219); */
 }
 
 
@@ -388,6 +388,6 @@ outline: 5px solid red;
         line-height: 1.30;
         text-align: justify;
         margin-bottom: 15px;
-        outline: 3px solid rgb(67, 184, 219);
+        /* outline: 3px solid rgb(67, 184, 219); */
     }
 }
