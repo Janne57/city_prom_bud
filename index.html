@@ -15,7 +15,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer">
   
   <script type="module" crossorigin src="/city_prom_bud/commonHelpers3.js"></script>
-  <link rel="stylesheet" href="/city_prom_bud/assets/styles-edcbb8eb.css">
+  <link rel="stylesheet" href="/city_prom_bud/assets/styles-c1bdbe2d.css">
 </head>
 
 <body>
@@ -24,6 +24,21 @@
   <nav class="nav">
 
     <a href="index.html" class="nav-logo"><img src="/city_prom_bud/assets/logocity-03793e9b.png" width="90" height="60"></a>
+
+    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg width="25" height="19" fill="none" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+      
+        <g clip-path="url(#a)">
+          <path stroke="#2E2F42" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+            d="M1.348 20.043h29.538M1.348 10.735h29.538M1.348 1.428h29.538" />
+        </g>
+        <defs>
+          <clipPath id="a">
+            <path fill="none" d="M0 0h32v22H0z" />
+          </clipPath>
+        </defs>
+      </svg>
+    </button>
 
     <ul class="nav-list">
       <li><a href="./services.html" class="nav-link current">Послуги</a>
@@ -53,25 +68,22 @@
   <div class="container">
     <div class="wrapper">
       <h2 class="title">
-        <span class="gradient">Vite</span>
+        <span class="gradient">Ласкаво просимо до СітіПромБуд</span>
       </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
+      <p class="text">"Наша мета — створити будівельні об'єкти, які відповідатимуть потребам майбутніх поколінь та сприятимуть сталому розвитку."</p>
+      <p class="tagline">Пропонуємо комплекс будівельних робіт</p>
 
       <ul class="actions">
         <li class="action">
           <a
             class="link"
-            href="https://vitejs.dev/guide/"
+            href="./services-page.html/"
             target="_blank"
             rel="noopener noreferrer"
-            >Get Started</a
+            >Послуги</a
           >
         </li>
-        <li class="action">
+        <!-- <li class="action">
           <a
             class="link"
             href="https://github.com/vitejs/vite"
@@ -79,7 +91,7 @@
             rel="noopener noreferrer"
             >View on GitHub</a
           >
-        </li>
+        </li> -->
       </ul>
     </div>
 
@@ -87,7 +99,7 @@
       <!-- Path to images as from index.html file -->
       <img
         class="pic"
-        src="/city_prom_bud/assets/vite-logo-51249ca9.png"
+        src="/city_prom_bud/assets/indeximg-65845d43.jpg"
         alt="Vite logo"
         width="640"
         height="640"
@@ -95,8 +107,6 @@
     </div>
   </div>
 </section>
-
-
 
   <footer class="footer">
     <!-- <div class="container"> -->
@@ -115,6 +125,121 @@
         <!-- </li> -->
     <!-- </div> -->
 </footer>
+
+  <!-- WINDOWS -->
+
+    <!--Modal window  -->
+  <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+            <svg class="modal-icon" width="30" height="30">
+                <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+        </button>
+        <strong class="modal-text">Leave your contacts and we will call you back</strong>
+        <form>
+            <div class="form-group-base">
+                <div class="form-group">
+                    <label for="user_name">Name</label>
+                    <input class="form-group-input" type="text" name="user_name" id="user_name" autofocus>
+                    <svg class="form-group-icon" width="18" height="18">
+                        <use href="./images/icons.svg#icon-personblack"></use>
+                    </svg>
+                </div>
+                <div class="form-group">
+                    <label for="user_phone">Phone</label>
+                    <input class="form-group-input" type="tel" name="user_phone" id="user_phone">
+                    <svg class="form-group-icon" width="18" height="24">
+                        <use href="./images/icons.svg#icon-phoneblack"></use>
+                    </svg>
+                </div>
+                <div class="form-group">
+                    <label for="user_email">Email</label>
+                    <input class="form-group-input" type="email" name="user_email" id="user_email">
+                    <svg class="form-group-icon" width="18" height="24">
+                        <use href="./images/icons.svg#icon-emailblack"></use>
+                    </svg>
+                </div>
+                <div class="form-group">
+                    <label for="user_comment">Comment</label>
+                    <textarea name="user_comment" id="user_comment" rows="5" placeholder="Text input"
+                        class="form-group-textarea"></textarea>
+                </div>
+                <label class="form-group-agreement">
+                    <input class="form-group-check" type="checkbox">
+                    <span class="form-group-desk">I accept the terms and conditions of the
+                        <a class="form-group-link" href="">Privacy Policy</a></span>
+                </label>
+                <button class="btn-send" type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+</div> -->
+
+<!-- Mobile menu -->
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-close-btn js-close-menu">
+        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+        </svg>
+    </button>
+
+    <ul class="mobile-menu">
+        <li><a href="./index.html" class="mobile-link current link">Послуги</a></li>
+        <li><a href="./connection.html" class="mobile-link link">Зв'язатися з нами</a></li>
+        <li><a href="./aboutus.html" class="mobile-link link">Про нас</a></li>
+    </ul>
+
+    <div class="mobile-menu-div">
+        <ul class="mobile-menu-link">
+            <li><a href="tel:+110001111111" class="mobile-menu-tel">+11 (000) 111-11-11</a></li>
+            <li><a href="mailto:info@cityprombud.com" class="mobile-menu-tel
+                ">info@cityprombud.com</a></li>
+        </ul>
+        <!-- <ul class="mobile-menu-socials">
+            <li>
+                <a class="socials-link" href="https://www.instagram.com/" aria-label="Instagram" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="socials-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="socials-link" href="https://www.twitter.com/" aria-label="Twitter" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="socials-link" href="https://uk-ua.facebook.com/" aria-label="Facebook" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg></a>
+            </li>
+            <li>
+                <a class="socials-link" href="https://www.linkedin.com/" aria-label="Linkedin" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg></a>
+            </li>
+        </ul> -->
+    </div>
+</div>
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script defer src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
   
 </body>
 
