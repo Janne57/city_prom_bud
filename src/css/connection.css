@@ -37,6 +37,7 @@
     font-size: 22px;
     line-height: 1.30;
     text-align: justify;
+    margin-bottom: 80px;
     /* outline: 2px solid rgb(219, 42, 175); */
 }
 
@@ -84,9 +85,10 @@ svg {
     font-family: Whisper;
     font-style: italic;
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 80px;
+   
     position: absolute;
-    top: 460px;
+    top: 430px;
     left: -700px;
     /* outline: 3px solid blue; */
   }

@@ -1,0 +1,187 @@
+/*===================*/
+/*  PORTFOLIO PAGE   */
+/*===================*/
+.section-port {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.row {
+    margin-top: 150px;
+}
+/* active color-text "Portfolio" in header*/
+.current {
+    color: var(--current-text-color);
+}
+
+.card-item {
+    /* --items: 3; */
+    /* flex-basis: calc((100% - (24px*2))/3); */
+    /* flex-basis: calc((100% - (48px * (var(--items) - 1))) / var(--items)); */
+    width: 450px;
+}
+
+/* секция для кнопок */
+.section-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+    /* padding: 96px 427px 72px; */
+    /* outline: 2px solid red; */
+}
+
+/* buttons */
+.primary-button {
+    color: var(--primary-btn-color);
+    background: var(--secondary-btn-color);
+    border-color: var(--border-btn-color);
+    border: none;
+    cursor: pointer;
+    height: 48px;
+    border-radius: 4px;
+    padding: 12px 24px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    /* transition-property: all */
+    transition-property: color, background-color, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+    color: var(--primary-btntext-color);
+    background-color: var(--primary-btn-color);
+    /* border-color: transparent; */
+    border-color: var(--border-btn-color);
+    box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Паддинги сетки в Портфолио */
+.top {
+    padding-top: 0px;
+    padding-bottom: 120px;
+}
+
+/* Паддинг в скрітой секции 2 */
+/* 480px <= phone screen<=768px <= tablet screen <= infinity */
+.topdo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* 1280px <= desktop screen <= infinity */
+@media screen and (min-width: 1280px) {
+    .topdo {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
+
+.section-port {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.nul {
+    padding-top: 0px;
+}
+
+.row .section-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+    text-align: left;
+    margin-bottom: 8px;
+    /* outline: 4px solid red; */
+    
+}
+
+/* Borders in Portfolio page */
+.img-margin {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.section-border {
+    display: inline-block;
+    width: 360px;
+    border-left: 1px solid var(--border-col-portfolio);
+    border-right: 1px solid var(--border-col-portfolio);
+    border-bottom: 1px solid var(--border-col-portfolio);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
+
+.section-title-p {
+    font-weight: 400;
+    margin: 0px;
+    color: var(--link-text-cont);
+
+}
+
+.item-a {
+    /* transition-property: all */
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
+}
+
+.item-a:hover {
+    display: block;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    cursor: pointer;
+}
+
+/*Синий оверлей*/
+.box {
+    /* --items: 3; */
+    /* flex-basis: calc((100% - (24px*2))/3); */
+    width: 264px;
+    outline: 3px solid rgb(223, 61, 61);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.box:hover .overlay {
+    transform: translatex(0);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: var(--background-card); */
+    background-color: grey;
+    transform: translatey(100%);
+    transition: transform 250ms ease;
+
+}
+
+.overlay>p {
+    /* color: var(--logo-text-footer); */
+    color: rgb(245, 241, 241);
+    padding: 40px 32px;
+    font-weight: 400;
+
+
+}
