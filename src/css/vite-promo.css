@@ -9,9 +9,9 @@
   gap: 4rem;
 
   width: 86vw;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 0 20px;
-  outline: 2px solid yellow;
+  /* outline: 2px solid yellow; */
 }
 
 .vite-promo .wrapper {
@@ -22,7 +22,8 @@
 .vite-promo .text {
   margin-bottom: 1.5rem;
 
-  font-size: 3.5rem;
+  /* font-size: 3.5rem; */
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.14;
 

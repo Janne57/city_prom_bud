@@ -1,0 +1,92 @@
+.connect-us {
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    /* padding: 100px; */
+    /* outline: 3px solid blue; */
+    /* background-image: linear-gradient(rgba(250, 250, 250, 0.9), rgba(250, 250, 250, 0.9)), url(../img/logo6.jpg); */
+    /* background-image: url(../img/logo6.jpg); */
+    /* background-color: rgba(255, 0, 0, 0.9);
+
+    background-image: url(image.png); */
+    /* background-color: transparent; */
+    /* color: white; */
+    /* color: rgb(7, 7, 7); */
+    /* opacity: 0.5; */
+
+
+    /* opacity: 0.1; */
+    /* background-size: cover;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat; */
+/* outline: 2px solid yellow; */
+   
+}
+/* .connect-us-opacity {
+    opacity: 1;
+} */
+
+.connect-us-div {
+    position: relative; 
+    /*top: 0px;
+    left: 100px; */
+    padding: 25px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.30;
+    text-align: justify;
+    /* outline: 2px solid rgb(219, 42, 175); */
+}
+
+.accent {
+    /* position: absolute;
+    top: 0px; */
+    outline: 2px solid rgb(100, 100, 40);
+    height: 574px;
+    /* height: 74px; */
+    /* opacity: .04; */
+    opacity: .04;
+    overflow: hidden;
+    /* position: relative; */
+    /* outline: 3px solid blue; */
+    /* background-size: cover;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat; */
+}
+svg {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .bold {
+    /* font-style: bold; */
+    font-weight: bold;
+  }
+  /* .connect-us-div .text-coursive { */
+    /* font-style: italic; */
+    /* font-style: italic !important; */
+    /* color: red; */
+    /* font-weight: 400;
+    font-size: 16px;
+    line-height: 1.30;
+    text-align: justify;
+    margin-bottom: 15px; */
+  /* } */
+
+  /* .connect-us-div .text-coursive:not(.bold) {
+    font-style: italic !important;
+  } */
+ .coursive {
+    font-family: Whisper;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 40px;
+    position: absolute;
+    top: 460px;
+    left: -700px;
+    /* outline: 3px solid blue; */
+  }

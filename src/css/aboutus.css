@@ -223,11 +223,11 @@ screen and (min-resolution: 2dppx) {
     margin-right: 20px; */
     /* max-width: 580px; */
     /* min-height: 315px; */
-    /* padding: 40px 50px; */
+    padding: 10px 15px;
     /* width: 91.5237278445%; */
 
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.22;
     text-align: justify;
     /* outline: 3px solid rgb(67, 184, 219); */
@@ -256,7 +256,7 @@ screen and (min-resolution: 2dppx) {
         /* width: 91.5237278445%; */
     
         font-weight: 500;
-        font-size: 20px;
+        font-size: 22px;
         line-height: 1.30;
         text-align: justify;
         /* outline: 3px solid rgb(67, 184, 219); */
@@ -365,6 +365,7 @@ margin-left: 50px; */
     flex-direction: column;
     /* text-align: justify; */
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .info-text {
