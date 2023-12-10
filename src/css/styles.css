@@ -32,6 +32,10 @@
 
   
     /* Primary and title color text */
+    --text-white-color: #ffffff;
+
+
+    /********/
     --body-bcg-color: #ffffff;
     --title-text-color: #2E2F42;
     
@@ -42,7 +46,7 @@
     
     --logo-text-color: #4D5AE5;
     --site-nav-link: #404BBF;
-    --text-white-color: #ffffff;
+
 
     --footer-bg-color: #f1f1f1;
     --footer-text-color: #898984;
