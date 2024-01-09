@@ -1,6 +1,3 @@
-/*===================*/
-/*  PORTFOLIO PAGE   */
-/*===================*/
 .section-port {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -9,6 +6,7 @@
 .row {
     margin-top: 150px;
 }
+
 /* active color-text "Portfolio" in header*/
 .current {
     color: var(--current-text-color);
@@ -18,7 +16,11 @@
     /* --items: 3; */
     /* flex-basis: calc((100% - (24px*2))/3); */
     /* flex-basis: calc((100% - (48px * (var(--items) - 1))) / var(--items)); */
-    width: 450px;
+    /* width: 350px; */
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    /* outline: 2px solid blue; */
 }
 
 /* секция для кнопок */
@@ -94,6 +96,102 @@
     padding-bottom: 120px;
 }
 
+
+/* .card-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px 24px;
+    padding-left: 68.82px;
+    padding-right: 68.82px;
+    max-width: 260.35px;
+} */
+
+.card-set {
+    width: 335px;
+    height: 100%;
+    display: grid;
+    max-width: calc(100vw - 40px);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid green; */
+}
+
+@media screen and (max-width: 375px) {
+    .card-set {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-set {
+        width: 704px;
+        gap: 80px 20px;
+       
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card-set {
+        /* width: 1240px; */
+        width: 100%;     
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 80px 20px;
+    }
+}
+
+.card-set-example {
+    width: 335px;
+    height: 100%;
+    display: grid;
+    max-width: calc(100vw - 40px);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 60px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid green; */
+}
+
+@media screen and (max-width: 375px) {
+    .card-set-example {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-set-example {
+        width: 704px;
+        gap: 90px 90px;
+       
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card-set-example {
+        /* width: 1240px; */
+        width: 100%;     
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 100px 100px;
+    }
+}
+
+
 .nul {
     padding-top: 0px;
 }
@@ -102,18 +200,25 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
+    
     color: var(--title-text-color);
     text-align: left;
     margin-bottom: 8px;
     /* outline: 4px solid red; */
-    
+
 }
 
 /* Borders in Portfolio page */
 .img-margin {
-    display: block;
+    /* display: block; */
     margin-right: 0px;
     margin-left: 0px;
+    /* width: 360px; */
+    max-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    /* height: 140px; */
+    /* outline: 4px solid red; */
 }
 
 .section-border {
@@ -149,19 +254,44 @@
     cursor: pointer;
 }
 
-/*Синий оверлей*/
+/* оверлей*/
 .box {
     /* --items: 3; */
     /* flex-basis: calc((100% - (24px*2))/3); */
-    width: 264px;
-    outline: 3px solid rgb(223, 61, 61);
-
+    /* width: 264px; */
+    /* outline: 3px solid rgb(223, 61, 61); */
+    height: 180px;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
 }
 
 .box:hover .overlay {
     transform: translatex(0);
+}
+
+
+.box-example {
+    /* --items: 3; */
+    /* flex-basis: calc((100% - (24px*2))/3); */
+    /* width: 264px; */
+    /* outline: 3px solid rgb(223, 61, 61); */
+    height: 290px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
+}
+
+.box-example:hover {
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.7);
+    cursor: pointer;
+    
 }
 
 .overlay {
@@ -171,17 +301,26 @@
     width: 100%;
     height: 100%;
     /* background-color: var(--background-card); */
-    background-color: grey;
+    background-color: rgba(46, 47, 66, 0.4);
+    ;
+    /* opacity: 0.6; */
     transform: translatey(100%);
-    transition: transform 250ms ease;
+    transition: transform 500ms ease;
+    
 
 }
 
 .overlay>p {
     /* color: var(--logo-text-footer); */
     color: rgb(245, 241, 241);
-    padding: 40px 32px;
+    font-weight: 600;
+    font-size: 26px;
+    /* padding: 40px 32px; */
     font-weight: 400;
-
+    text-align: center;
+    padding-top: 60px;
+    /* margin-bottom: auto; */
+    /* vertical-align: middle;
+align-items: center; */
 
 }
