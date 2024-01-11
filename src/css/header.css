@@ -90,6 +90,9 @@
   color: #747bff;
 }
 
+.nav-link:active {
+  color: #f0931b;
+}
 
 .nav-link.current::after {
   content: '';
@@ -107,6 +110,10 @@
   display: none;
 }
 
+
+/* .current {
+  color: #747bff;
+} */
 .header-cont {
   display: none;
 }
@@ -145,4 +152,36 @@
 .link-contacts:hover,
 .link-contacts:focus {
   color: var(--site-nav-link);
+}
+
+/*пример кода - изменить цвет при клике)
+/*input[type=radio] {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: -1;
+}
+
+label {
+  cursor: pointer;
+  user-select: none;
+}
+
+
+label {
+  color: white;
+  display: inline-block;
+  background: black;
+  margin: 0 0 .5em 0;
+  padding: 1em 2em;
+}
+
+input[type=radio]:checked~label {
+  background-color: red;
+}
+<input type="radio" id="button">
+<label for="button">Click</label> */
+
+a:active {
+  color:red;
 }
