@@ -182,6 +182,26 @@ input[type=radio]:checked~label {
 <input type="radio" id="button">
 <label for="button">Click</label> */
 
-a:active {
+/* a:active {
   color:red;
+} */
+
+
+/* var btn = document.getElementById("btn");
+btn.addEventListener("click", function() {
+  this.classList.add("active");
+});
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+  user-select: none;
 }
+
+.active {
+  background-color: red;
+}
+<button id="btn">Click</button> */

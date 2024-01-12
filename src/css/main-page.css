@@ -1,32 +1,81 @@
 /* Vite promo styles */
 .vite-promo {
-  padding: 8rem 0;
+  padding: 0;
+  outline: 2px solid rgb(73, 35, 209);
 }
 
-.vite-promo .container {
+
+@media screen and (max-width: 374.98px) {
+  .vite-promo {
+    /* max-width: 335px; */
+    /* outline: 5px solid rgb(24, 22, 22); */
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .vite-promo {
+    /* width: 335px; */
+    /* outline: 5px solid rgb(24, 22, 22); */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .vite-promo {
+    padding: 7rem 0;
+    /* width: 704px; */
+    /* outline: 5px solid rgb(24, 22, 22); */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .vite-promo {
+    /* width: 1376px; */
+    /* outline: 5px solid rgb(24, 22, 22); */
+  }
+}
+
+
+.vite-promo .container-main {
   display: flex;
+  flex-direction: column-reverse;
+
   align-items: center;
-  gap: 8rem;
+  gap: 2rem;
 
   width: 90vw;
-  margin: 50px auto;
-  padding: 0 20px;
-  /* outline: 2px solid yellow; */
+  margin: 30px auto;
+  padding: 0 15px;
+  outline: 2px solid rgb(194, 71, 40);
+}
+
+
+@media screen and (min-width: 768px) {
+  .vite-promo .container-main {
+    /* display: flex;
+    align-items: center; */
+    flex-direction: row;
+    gap: 3rem;
+  
+    /* width: 90vw;
+    margin: 30px auto;
+    padding: 0 20px;
+    outline: 2px solid rgb(194, 71, 40); */
+  }
 }
 
 .vite-promo .wrapper {
-  max-width: 44rem;
-  padding: 50px;
-  /* outline: 2px solid yellow; */
+  max-width: 36rem;
+  padding: 35px;
+  outline: 2px solid yellow;
 }
 
 .vite-promo .title,
 .vite-promo .text {
   margin-bottom: 1.5rem;
 
-  /* font-size: 3.5rem; */
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 1.5rem;
+  /* font-size: 36px; */
+  font-weight: 600;
   line-height: 1.14;
 
   color: #213547;
@@ -42,7 +91,7 @@
 }
 
 .vite-promo .tagline {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   color: rgba(60, 60, 60, 0.7);
   margin-bottom: 40px;
