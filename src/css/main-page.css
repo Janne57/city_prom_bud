@@ -1,35 +1,13 @@
 /* Vite promo styles */
 .vite-promo {
   padding: 0;
-  outline: 2px solid rgb(73, 35, 209);
-}
-
-
-@media screen and (max-width: 374.98px) {
-  .vite-promo {
-    /* max-width: 335px; */
-    /* outline: 5px solid rgb(24, 22, 22); */
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .vite-promo {
-    /* width: 335px; */
-    /* outline: 5px solid rgb(24, 22, 22); */
-  }
+  /* outline: 2px solid rgb(73, 35, 209); */
 }
 
 @media screen and (min-width: 768px) {
   .vite-promo {
     padding: 7rem 0;
     /* width: 704px; */
-    /* outline: 5px solid rgb(24, 22, 22); */
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .vite-promo {
-    /* width: 1376px; */
     /* outline: 5px solid rgb(24, 22, 22); */
   }
 }
@@ -43,9 +21,9 @@
   gap: 2rem;
 
   width: 90vw;
-  margin: 30px auto;
+  margin: 20px auto;
   padding: 0 15px;
-  outline: 2px solid rgb(194, 71, 40);
+  /* outline: 2px solid rgb(194, 71, 40); */
 }
 
 
@@ -66,7 +44,7 @@
 .vite-promo .wrapper {
   max-width: 36rem;
   padding: 35px;
-  outline: 2px solid yellow;
+  /* outline: 2px solid yellow; */
 }
 
 .vite-promo .title,

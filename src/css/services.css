@@ -1,12 +1,17 @@
-.section-port {
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
+/* .section-port {
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
 
 .row {
-    margin-top: 150px;
+    margin-top: 3rem;
 }
 
+@media screen and (min-width: 768px) {
+    .row {
+        margin-top: 10rem;
+    }
+  }
 /* active color-text "Portfolio" in header*/
 .current {
     color: var(--current-text-color);
@@ -115,7 +120,7 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 40px;
     margin-top: 0;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     padding: 0;
     list-style: none;
     margin-left: auto;
