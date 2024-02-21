@@ -19,7 +19,7 @@
     /* flex-basis: calc((100% - (48px * (var(--items) - 1))) / var(--items)); */
     /* width: 350px; */
     min-width: 100%;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
@@ -82,11 +82,11 @@
 }
 
 .card-set {
-    width: 335px;
+    width: 320px;
     height: 100%;
     display: grid;
     max-width: calc(100vw - 40px);
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 40px;
     margin-top: 0;
     margin-bottom: 60px;
@@ -122,11 +122,11 @@
 }
 
 .card-set-example {
-    width: 335px;
+    width: 320px;
     height: 100%;
     display: grid;
     max-width: calc(100vw - 40px);
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 60px;
     margin-top: 0;
     margin-bottom: 80px;

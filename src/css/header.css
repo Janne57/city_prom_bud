@@ -2,6 +2,7 @@
   display: block;
   padding: 5px 20px;
   border: 1px solid #d9d9d9;
+  width: 100vw;
 }
 
 
@@ -15,7 +16,7 @@
     right: 0;
     margin: 0 auto;
     background-color: var(--body-bcg-color);
-    width: 100vw;
+    /* width: 100vw; */
   }
 }
 
@@ -79,7 +80,7 @@
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #747bff;
+  color: var(--site-nav-linkhover);
 }
 
 .nav-link.current::after {

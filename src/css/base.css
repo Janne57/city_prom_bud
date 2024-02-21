@@ -4,6 +4,7 @@ body {
     letter-spacing: -0.02em;
     /* text-transform: uppercase; */
     color: var(--primary-text-color);
+    width: 100vw; 
   }
 
 .container {

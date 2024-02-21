@@ -13,7 +13,14 @@
 .text-center {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 16px;
 }
+
+@media screen and (min-width: 768px) {
+    .text-center {
+        font-size: 22px;
+    }
+} 
 
 .add-padding {
     padding: 0 2rem 3rem;
@@ -53,6 +60,14 @@
 }
 
 .connectus-h {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .connectus-h {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }  
 }
