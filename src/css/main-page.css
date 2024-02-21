@@ -43,10 +43,17 @@
 
 .vite-promo .wrapper {
   max-width: 36rem;
-  padding: 35px;
+  /* padding: 35px; */
   /* outline: 2px solid yellow; */
 }
 
+@media screen and (min-width: 768px) {
+  .vite-promo .wrapper {
+    /* max-width: 36rem; */
+    padding: 25px;
+    /* outline: 2px solid yellow; */
+  }
+}
 .vite-promo .title,
 .vite-promo .text {
   margin-bottom: 1.5rem;
