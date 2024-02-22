@@ -16,7 +16,6 @@
     right: 0;
     margin: 0 auto;
     background-color: var(--body-bcg-color);
-    /* width: 100vw; */
   }
 }
 
@@ -138,3 +137,4 @@
 .link-contacts:focus {
   color: var(--site-nav-link);
 }
+

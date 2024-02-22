@@ -9,60 +9,27 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
-    /* outline: 5px solid green; */
 }
-
-/* @media screen and (min-device-pixel-ratio: 2),
-screen and (webkit-min-device-pixel-retio: 2),
-screen and (o-min-device-pixel-retio: 2/1),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_desk@2x.jpg);
-    }
-} */
 
 @media screen and (min-width: 768px) {
     .hero {
         min-width: 768px;
         padding: 188px 136px;
         margin-bottom: 100px;
-        /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_tab@1x.jpg); */
     }
 }
-
-/* @media screen and (min-device-pixel-ratio: 2),
-screen and (webkit-min-device-pixel-retio: 2),
-screen and (o-min-device-pixel-retio: 2/1),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_tab@2x.jpg);
-    }
-} */
 
 @media screen and (min-width: 1440px) {
     .hero {
         min-width: 1280px;
         padding: 188px 200px;
-        /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_desk@1x.jpg); */
     }
 }
-
-/* @media screen and (min-device-pixel-ratio: 2),
-screen and (webkit-min-device-pixel-retio: 2),
-screen and (o-min-device-pixel-retio: 2/1),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_desk@2x.jpg);
-    }
-} */
 
 .hero-title {
     color: var(--text-white-color);
     font-weight: 400;
-    font-size: 36px;
+    font-size: 34px;
     line-height: 1.26;
     text-align: center;
     width: 100%;
@@ -87,12 +54,10 @@ screen and (min-resolution: 2dppx) {
 
 
 /***section different-us**/
-
 .different-us {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
-    /* outline: 6px solid rgb(248, 11, 189); */
 }
 
 .reverse {
@@ -105,15 +70,13 @@ screen and (min-resolution: 2dppx) {
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 100px;
-        /* outline: 6px solid rgb(248, 11, 189); */
     }
 }
 
-v .different-us-div {
+.different-us-div {
     display: flex;
     flex-direction: column;
     position: relative;
-    /* outline: 3px solid red; */
 }
 
 .different-us-title {
@@ -124,7 +87,6 @@ v .different-us-div {
     margin-right: auto;
     padding: 15px;
     text-align: center;
-    /* outline: 3px solid rgb(243, 208, 11); */
 }
 
 @media screen and (min-width: 768px) {
@@ -135,7 +97,6 @@ v .different-us-div {
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
-        /* outline: 3px solid rgb(243, 208, 11); */
     }
 }
 
@@ -146,10 +107,9 @@ v .different-us-div {
     padding: 10px 15px;
 
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.22;
     text-align: justify;
-    /* outline: 3px solid rgb(67, 184, 219); */
 }
 
 
@@ -164,13 +124,11 @@ v .different-us-div {
         font-size: 22px;
         line-height: 1.30;
         text-align: justify;
-        /* outline: 3px solid rgb(67, 184, 219); */
     }
 }
 
 .different-us-img {
     margin-top: 40px;
-    /* outline: 3px solid rgb(23, 224, 16); */
 }
 
 @media screen and (min-width: 1440px) {
@@ -181,15 +139,11 @@ v .different-us-div {
 
 
 /***section select-us****/
-
 .select-us-div {
     display: flex;
     flex-direction: column;
-    /* outline: 5px solid red; */
 }
 
-
-/**section select-us***/
 .info-us {
     display: flex;
     flex-direction: column;
@@ -203,13 +157,11 @@ v .different-us-div {
     line-height: 1.30;
     text-align: justify;
     margin-bottom: 15px;
-    /* outline: 3px solid rgb(67, 184, 219); */
 }
 
 
 @media screen and (min-width: 768px) {
     .info-text {
         font-size: 18px;
-        /* outline: 3px solid rgb(67, 184, 219); */
     }
 }

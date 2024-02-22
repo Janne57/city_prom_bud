@@ -1,10 +1,7 @@
-
-
 .connect-us {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  /* outline: 5px solid yellow; */
 }
 
 
@@ -19,13 +16,12 @@
 .connect-us-div {
   position: relative;
   flex-basis: 100%;
-  padding: 25px 0px;
+  padding: 25px 15px;
   font-weight: 500;
   font-size: 22px;
   line-height: 1.30;
   text-align: justify;
   margin-bottom: 80px;
-  /* outline: 2px solid rgb(219, 42, 175); */
 }
 
 @media screen and (min-width: 768px) {
@@ -35,15 +31,9 @@
 }
 
 .accent {
-  /* outline: 2px solid rgb(100, 100, 40); */
   flex-basis: 120%;
   opacity: .15;
   overflow: hidden;
-  /* outline: 3px solid blue; */
-  /* background-size: cover;
-    background-position: center;
-    background-size: 70%;
-    background-repeat: no-repeat; */
 }
 
 .connect-svg {
@@ -70,7 +60,6 @@
   top: 240px;
   left: 10px;
   opacity: 0.4;
-  /* outline: 3px solid blue; */
 }
 
 @media screen and (min-width: 768px) {
@@ -85,7 +74,7 @@
 @media screen and (min-width: 1440px) {
   .coursive {
     font-size: 30px;
-    top: 330px;
+    top: 370px;
     left: -700px;
   }
 }
